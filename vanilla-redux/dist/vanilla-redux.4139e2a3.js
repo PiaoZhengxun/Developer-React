@@ -140,12 +140,12 @@
       this[globalName] = mainExports;
     }
   }
-})({"1nxmM":[function(require,module,exports) {
+})({"3WTT0":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
-var HMR_ENV_HASH = "4e5dac8afe405db7";
-module.bundle.HMR_BUNDLE_ID = "9faf444bc71f97c6";
+var HMR_ENV_HASH = "69f74e7f31319ffd";
+module.bundle.HMR_BUNDLE_ID = "5c6af6d84139e2a3";
 "use strict";
 function _createForOfIteratorHelper(o, allowArrayLike) {
     var it;
@@ -454,51 +454,8 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}]},["1nxmM"], null, "parcelRequire18a0")
-const divToggle = document.querySelector(".toggle");
-const counter = document.querySelector("h1");
-const btnIncrease = document.querySelector("#increase");
-const btnDecrease = document.querySelector("#decrease");
-const TOGGLE_SWITCH = "TOGGLE_SWITCH";
-const INCREASE = "INCREASE";
-const DECREASE = "DECREASE";
-const toggleSwitch = ()=>({
-        type: TOGGLE_SWITCH
-    })
-;
-const increase = (difference)=>({
-        type: INCREASE,
-        difference
-    })
-;
-const decrease = ()=>({
-        type: DECREASE
-    })
-;
-const initialState = {
-    toggle: false,
-    counter: 0
-};
-function reducer(state = initialState, action) {
-    switch(action.type){
-        case TOGGLE_SWITCH:
-            return {
-                ...state,
-                toggle: !state.toggle
-            };
-        case INCREASE:
-            return {
-                ...state,
-                counter: state.counter + action.difference
-            };
-        case DECREASE:
-            return {
-                ...state,
-                counter: state.counter - 1
-            };
-        default:
-            return state;
-    }
-}
+},{}],"3JWLp":[function(require,module,exports) {
 
-//# sourceMappingURL=index.c71f97c6.js.map
+},{}]},["3WTT0","3JWLp"], "3JWLp", "parcelRequire18a0")
+
+//# sourceMappingURL=vanilla-redux.4139e2a3.js.map
