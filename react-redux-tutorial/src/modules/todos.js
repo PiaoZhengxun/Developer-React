@@ -1,4 +1,4 @@
-import { createAction, handleActions } from 'redux-action';
+import { createAction, handleActions } from 'redux-actions';
 import produce from 'immer';
 
 const CHANGE_INPUT = 'todos/CHANGE_INPUT';
