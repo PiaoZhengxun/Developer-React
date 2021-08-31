@@ -33,7 +33,7 @@ export const getUsers = () => async (dispatch) => {
     const response = await api.getUsers();
     dispatch({
       type: GET_USERS_SUCCESS,
-      payload: response,
+      payload: response.data,
     });
   } catch (e) {
     dispatch({
